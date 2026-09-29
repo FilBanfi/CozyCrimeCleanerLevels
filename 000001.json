@@ -1,0 +1,52 @@
+{
+  "$schema": "cozy-crime-cleaner",
+  "version": "1.0.0",
+  "minEngineVersion": "1.0.0",
+  
+  "meta": {
+    "id": "livello_001",
+    "title": "La Piccola Macchia",
+    "author": "FilBanfi",
+    "description": "Oh no! Una macchiolina sul pavimento! 🌸",
+    "tags": ["tutorial", "easy", "kitchen"],
+    "difficulty": 1,
+    "timeLimit": 0,
+    "music": "lofi_01",
+    "thumbnail": "thumb_001.png"
+  },
+  
+  "room": {
+    "background": "cucina_01",
+    "width": 10,
+    "height": 8,
+    "gridSize": 40
+  },
+  
+  "elements": {
+    "walls": [
+      {"x": 0, "y": 0, "costume": "wall_corner_tl"},
+      {"x": 1, "y": 0, "costume": "wall_flat"}
+    ],
+    "floors": [
+      {"x": 1, "y": 1, "costume": "floor_wood_plain"}
+    ],
+    "furniture": [
+      {"x": 3, "y": 2, "costume": "furn_fridge_closed", "rotation": 0}
+    ],
+    "decor": [
+      {"x": 5, "y": 1, "costume": "decor_plant_small"}
+    ],
+    "mess": [
+      {"x": 2, "y": 3, "costume": "mess_blood_drop", "rotation": 45}
+    ],
+    "cleanTargets": [
+      {"x": 2, "y": 3, "costume": "clean_blood_smear", "hp": 3}
+    ]
+  },
+  
+  "events": [
+    {"trigger": "onStart", "action": "showMessage", "text": "Inizia a pulire!"}
+  ],
+  
+  "extensions": {}
+}
