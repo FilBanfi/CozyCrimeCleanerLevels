@@ -4,10 +4,10 @@
   "minEngineVersion": "1.0.0",
   
   "meta": {
-    "id": "livello_001",
-    "title": "La Piccola Macchia",
+    "id": "000000",
+    "title": "a small stain",
     "author": "FilBanfi",
-    "description": "Oh no! Una macchiolina sul pavimento! 🌸",
+    "description": "oh no! a little stain on the floor! 🌸",
     "tags": ["tutorial", "easy", "kitchen"],
     "difficulty": 1,
     "timeLimit": 0,
@@ -16,7 +16,7 @@
   },
   
   "room": {
-    "background": "cucina_01",
+    "background": "kitchen_01",
     "width": 10,
     "height": 8,
     "gridSize": 40
@@ -45,7 +45,7 @@
   },
   
   "events": [
-    {"trigger": "onStart", "action": "showMessage", "text": "Inizia a pulire!"}
+    {"trigger": "onStart", "action": "showMessage", "text": "start cleaning!"}
   ],
   
   "extensions": {}
