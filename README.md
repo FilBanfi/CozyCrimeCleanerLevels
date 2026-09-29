@@ -3,8 +3,8 @@
 Welcome to the official level data repository for **Cozy Crime Cleaner**!  
 Here you will find all the JSON files that power the chaotic, cozy crime scenes of the game.
 
-🎮 **Play the game on itch.io:** _Not available yer :)_  
-📂 **Main Project Repository:** _Not available yer :)_  
+🎮 **Play the game on itch.io:** _Not available yet :)_  
+📂 **Main Project Repository:** _Not available yet :)_  
 
 ---
 
